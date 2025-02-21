@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Insight - Numerology & Color Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>Cosmic Insight</h1>
+            <p>Discover Your Numerological Essence By Acharjya</p>
+        </header>
+
+        <main class="main-content">
+            <form id="numerologyForm" class="input-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="birthPlace">Place of Birth</label>
+                    <input type="text" id="birthPlace" required placeholder="Enter city of birth">
+                </div>
+
+                <button type="submit" class="cta-button">Reveal My Profile</button>
+            </form>
+
+            <div id="result" class="result-card hidden">
+                <div class="color-display" id="colorDisplay"></div>
+                <h2>Your Cosmic Profile</h2>
+                <p><span>Life Path Number:</span> <span id="lifePathNumber"></span></p>
+                <p><span>Destiny Number:</span> <span id="destinyNumber"></span></p>
+                <p><span>Soul Color:</span> <span id="soulColor"></span></p>
+                <button onclick="location.reload()" class="cta-button">New Reading</button>
+            </div>
+        </main>
+        <div class="footer-content">
+            <p>&copy; 2022 Cosmic Insight. All rights reserved.</p>
+            <p>Made with <span class="heart">&#10084;</span> by <a href="https://souravacharjya.netlify.app/" style="color: rgb(255, 79, 4); text-decoration: none;" target="_blank">Acharjya</a></p>
+        </div>
+    </div>
+
+    <script src="numerology.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
