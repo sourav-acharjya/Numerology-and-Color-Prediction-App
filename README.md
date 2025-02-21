@@ -17,33 +17,10 @@ Welcome to the **Numerology and Color Prediction App**! This app combines the an
 3. **Color Analysis**: Receive personalized color recommendations based on your numerology profile.
 4. **Predictions and Advice**: Get daily, weekly, or monthly predictions based on your unique numerology and color profile.
 
-## Installation
-
-To get started with the Numerology and Color Prediction App, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/numerology-color-prediction-app.git
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   cd numerology-color-prediction-app
-   npm install
-   ```
-
-3. Run the app:
-   ```bash
-   npm start
-   ```
-
-4. Open your browser and navigate to `http://localhost:3000` to use the app.
 
 ## Technologies Used
 
-- **Frontend**: React.js (or your chosen framework)
-- **Backend**: Node.js (if applicable)
-- **Database**: (Optional) For storing user data and predictions
+- **Frontend**: HTML, CSS, JS
 - **Color Analysis**: Custom algorithms based on color psychology
 - **Numerology Logic**: Algorithm for calculating Life Path Number
 
